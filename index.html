@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @media only screen and (max-width: 100px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+
+nav {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+html, body {
+    min-width: 290px;
+    color: #4d4e53;
+    background-color: #ffffff;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
+
+
+
+header {
+    color: black;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: thin;
+}
+header {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+#navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+#navbar li {
+    color: #4d4e53;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+ul {
+    list-style-type: disc;
+}
+#navbar a {
+    display: block;
+    padding: 10px 30px;
+    color: #4d4e53;
+    text-decoration: none;
+    cursor: pointer;
+}
+#navbar a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+#navbar li {
+    color: #4d4e53;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+ul {
+    list-style-type: disc;
+}
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+main {
+    display: block;
+    unicode-bidi: isolate;
+}
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+#main-doc header {
+    text-align: left;
+    margin: 0px;
+}
+header {
+    color: black;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: thin;
+}
+header {
+    display: block;
+    unicode-bidi: isolate;
+}
+section article {
+    color: #4d4e53;
+    margin: 15px;
+    font-size: 0.96em;
+}
+article {
+    display: block;
+    unicode-bidi: isolate;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+section article {
+    color: #4d4e53;
+    margin: 15px;
+    font-size: 0.96em;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+section article {
+    color: #4d4e53;
+    margin: 15px;
+    font-size: 0.96em;
+}
+section li {
+    margin: 15px 0px 0px 20px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+ul {
+    list-style-type: disc;
+}
+section article {
+    color: #4d4e53;
+    margin: 15px;
+    font-size: 0.96em;
+}
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+</style>
+<body>
+    <nav id='navbar'>
+        <header id='header'>JS Documentation</header>
+        <ul>
+          <li>
+            <a class='nav-link' href='#introduction'>Introduction</a>
+          </li>
+          <li>
+            <a class='nav-link' href='#history'>History</a>
+          </li>
+          <li>
+            <a class='nav-link' href='#trademark'>Trademark</a>
+          </li>
+      
+          <li>
+            <a class='nav-link' href='#execution'>Execution</a>
+          </li>
+      
+          <li>
+            <a class='nav-link' href='#syntax'>Syntax</a>
+          </li>
+        </ul>
+      </nav>
+      <main id='main-doc'>
+        <section class='main-section' id='introduction'>
+          <header>Introduction</header>
+          <article>
+            <p>
+              JavaScript (/ˈdʒɑːvəskrɪpt/), often abbreviated as JS,is a <a class='programmingLanguage' href='https://en.wikipedia.org/wiki/Programming_language'>programming language</a> and core technology of <a class='programmingLanguage' href='https://en.wikipedia.org/wiki/World_Wide_Web'>the web</a> , alongside HTML and CSS. 99% of websites use JavaScript on the client side for webpage behavior.[10]
+            </p>
+      
+      
+            <p>
+              <a class='programmingLanguage' href='https://en.wikipedia.org/wiki/Web_browser'> web browser</a> have a dedicated JavaScript engine that executes the client code. These engines are also utilized in some servers and a variety of apps. The most popular runtime system for non-browser usage is Node.js.
+            </p>
+      
+            <p>
+              JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard.[11] It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).
+            </p>
+      
+            <p>
+              <a id='The ECMAScript' href='https://en.wikipedia.org/wiki/ECMAScript#:~:text=ECMAScript%20(%2F%CB%88%C9%9Bkm,pages%20across%20different%20web%20browsers.' >The ECMAScript</a> standard does not include any input/output (I/O), such as networking, storage, or graphics facilities. In practice, the web browser or other runtime system provides JavaScript APIs for I/O.
+            </p>
+      
+            <p>
+              Although <a href='https://en.wikipedia.org/wiki/Java_(programming_language)'>Java</a> and JavaScript are similar in name and syntax, the two languages are distinct and differ greatly in design.
+            </p>
+          </article>
+        </section>
+      
+        <section class='main-section' id='history'>
+          <header>History</header>
+          <h5>Creation at Netscape</h5>
+      
+          <article>
+            <p>
+              The first popular web browser with a graphical user interface, Mosaic, was released in 1993. Accessible to non-technical people, it played a prominent role in the rapid growth of the early World Wide Web.[12] The lead developers of Mosaic then founded the Netscape corporation, which released a more polished browser, Netscape Navigator, in 1994. This quickly became the most-used.[13
+            </p>
+      
+            <p>
+              During these formative years of the Web, web pages could only be static, lacking the capability for dynamic behavior after the page was loaded in the browser. There was a desire in the flourishing web development scene to remove this limitation, so in 1995, Netscape decided to add a programming language to Navigator. They pursued two routes to achieve this: collaborating with Sun Microsystems to embed the Java language, while also hiring Brendan Eich to embed the Scheme language.[6]
+            </p>
+      
+            <ul>
+              <li>A common misconception is that JavaScript is directly related to Java. Both indeed have a C-like syntax (the C language being their most immediate common ancestor language). They are also typically sandboxed, and JavaScript was designed with Java's syntax and standard library in mind. In particular, all Java keywords were reserved in original JavaScript, JavaScript's standard library follows Java's naming conventions, and JavaScript's Math and Date objects are based on classes from Java 1.0.[114]</li>
+      
+              <li>Both languages first appeared in 1995, but Java was developed by James Gosling of Sun Microsystems and JavaScript by Brendan Eich of Netscape Communications.</li>
+      
+              <li>The differences between the two languages are more prominent than their similarities. Java has static typing, while JavaScript's typing is dynamic. Java is loaded from compiled bytecode, while JavaScript is loaded as human-readable source code. Java's objects are class-based, while JavaScript's are prototype-based. Finally, Java did not support functional programming until Java 8, while JavaScript has done so from the beginning, being influenced by Scheme.</li>
+      
+              <li>JSON is a data format derived from JavaScript; hence the name JavaScript Object Notation. It is a widely used format supported by many other programming languages.</li>
+      
+              <li></li>
+      
+            </ul>
+          </article>
+        </section>
+      
+        <section class='main-section' id='trademark'>
+          <header>Trademark</header>
+      
+          <article>
+            <p>"JavaScript" is a trademark of Oracle Corporation in the <a href='https://en.wikipedia.org/wiki/United_States'>United States</a> . [37][38] The trademark was originally issued to Sun Microsystems on 6 May 1997, and was transferred to Oracle when they acquired Sun in 2009.[39]
+      
+      A letter was circulated in September 2024, spearheaded by Ryan Dahl, calling on Oracle to free the JavaScript trademark.[40] Brendan Eich the original creator of JavaScript, was among the over 14,000 signatories who supported the initiative.</p>
+          </article>
+        </section>
+      
+        <section class='main-section' id='execution'>
+          <header>Execution</header>
+      
+          <article>
+            <p>A JavaScript engine is a software component that executes JavaScript code. The first JavaScript engines were mere interpreters, but all relevant modern engines use just-in-time compilation for improved performance.[52]
+      
+      JavaScript engines are typically developed by web browser vendors, and every major browser has one. In a browser, the JavaScript engine runs in concert with the rendering engine via the Document Object Model and Web IDL bindings.[53] However, the use of JavaScript engines is not limited to browsers; for example, the V8 engine is a core component of the Node.js runtime system.[54]
+      
+      Since ECMAScript is the standardized specification of JavaScript, ECMAScript engine is another name for these implementations. With the advent of WebAssembly, some engines can also execute this code in the same sandbox as regular JavaScript code.[</p>
+          </article>
+        </section>
+      
+        <section class='main-section' id='syntax'>
+          <header>Syntax</header>
+          <h5>Simple examples here:</h5>
+      
+          <article>
+            <p><a href='https://en.wikipedia.org/wiki/Variable_(computer_science)'>Variables</a> in JavaScript can be defined using either the var,[78] let[79] or const[80] keywords. Variables defined without keywords will be defined at the global scope.
+            </p>
+      
+            <p>  <code>// Declares a function-scoped variable named `x`, and implicitly assigns the
+      // special value `undefined` to it. Variables without value are automatically
+      // set to undefined.</code></p>
+      
+      <p><code>// var is generally considered bad practice and let and const are usually preferred.
+      var x;</code></p>
+      
+      <p><code>// Variables can be manually set to `undefined` like so
+      let x2 = undefined;
+      
+      // Declares a block-scoped variable named `y`, and implicitly sets it to
+      // `undefined`. The `let` keyword was introduced in ECMAScript 2015.
+      let y;</code></p>
+      
+      <p><code>// Declares a block-scoped, un-reassignable variable named `z`, and sets it to
+      // a string literal. The `const` keyword was also introduced in ECMAScript 2015,
+      // and must be explicitly assigned to.
+      
+      // The keyword `const` means constant, hence the variable cannot be reassigned
+      // as the value is `constant`.
+      const z = "this value cannot be reassigned!";
+      
+      // Declares a global-scoped variable and assigns 3.  This is generally considered
+      // bad practice, and will not work if strict mode is on.</code></p>
+      
+      <p><code>// Declares a variable named `myNumber`, and assigns a number literal (the value
+      // `2`) to it.
+      let myNumber = 2;
+      
+      // Reassigns `myNumber`, setting it to a string literal (the value `"foo"`).
+      // JavaScript is a dynamically-typed language, so this is legal.
+      myNumber = "foo";</code></p>
+      
+          </article>
+        </section>
+      </main>
+</body>
+</html>
